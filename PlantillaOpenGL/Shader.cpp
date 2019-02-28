@@ -134,3 +134,13 @@ void Shader::verificarVinculacion(GLuint id)
 
 	}
 }
+
+void Shader::enlazar()
+{
+	glUseProgram(ShaderID);
+}
+
+void Shader::desenlazar()
+{
+	glUseProgram(0);
+}
