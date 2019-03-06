@@ -130,7 +130,7 @@ void Shader::verificarVinculacion(GLuint id)
 
 	if (estadoValidacion == GL_FALSE)
 	{
-		cout << "Nop se pudo validar la vinculacion" << endl;
+		cout << "No se pudo validar la vinculacion" << endl;
 
 	}
 }

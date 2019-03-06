@@ -19,7 +19,7 @@ void main()
 
 	//Establecer valores de atributos de salida
 	
-	outColor = color;
+	fragmentColor = color;
 
 
 }
